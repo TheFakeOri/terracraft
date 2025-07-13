@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model": "ulterracraft:block/party_block"
+    }
+  }
+}

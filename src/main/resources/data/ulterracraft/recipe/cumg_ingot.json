@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "ulterracraft:cumg_dust"
+  },
+  "result": {
+    "id": "ulterracraft:cumg_ingot"
+  },
+  "experience": 1,
+  "cookingtime": 100
+}
+

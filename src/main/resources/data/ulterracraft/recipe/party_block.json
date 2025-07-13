@@ -1,0 +1,20 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern": [
+" # ",
+"#O#",
+" # "
+],
+"key": {
+"#": {
+"item": "ulterracraft:babyoil"
+},
+"O": {
+"item": "ulterracraft:epstinelist"
+}
+},
+"result": {
+"id": "ulterracraft:party_block",
+"count": 1
+}
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ulterracraft:magnesium"
+    },
+    {
+      "item": "minecraft:raw_copper"
+    },`
+    {
+      "item": "minecraft:raw_copper"
+    },
+    {
+      "item": "minecraft:raw_copper"
+    }
+  ],
+  "result": {
+    "id": "ulterracraft:cumg_dust",
+    "count": 2
+  }
+}
