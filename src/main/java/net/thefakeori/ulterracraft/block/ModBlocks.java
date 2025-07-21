@@ -22,8 +22,8 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> PARTY_BLOCK = registerBlocks("party_block",
             ()-> new Block(BlockBehaviour.Properties.of().strength(1f).sound(SoundType.MUD)));
-    public static final DeferredBlock<Block> MAGNESIUM_ORE = registerBlocks("magnesium_ore.json",
-            ()-> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of().strength(2f).sound(SoundType.COPPER).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> MAGNESIUM_ORE = registerBlocks("magnesium_ore",
+            ()-> new Block(BlockBehaviour.Properties.of().strength(2f).sound(SoundType.COPPER)));
 
     public static <T extends Block> DeferredBlock<T> registerBlocks(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
